@@ -316,7 +316,9 @@ a {
 .social-link {
     width: 44px;
     height: 44px;
-    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
     fill: #afb1b8;
     border-radius: 50%;
@@ -414,12 +416,13 @@ a {
 }
 
 .footer-social-link {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
     width: 44px;
     height: 44px;
-    padding: 12px;
-    
+        
     fill: #FFFFFF;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
