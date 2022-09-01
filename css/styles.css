@@ -307,9 +307,8 @@ a {
 
 .team-social-links {
     display: flex;
-    justify-content: space-between;
-    padding-left: 32px;
-    padding-right: 32px;
+    justify-content: center;
+    gap: 10px;
     
 }
 
@@ -406,15 +405,15 @@ a {
 
 .footer-flex {
     display: flex;
-    justify-content: left;
+    align-items: baseline;
 }
   
 .footer-socials {
     margin-left: 70px;
-    padding-top: 15px;
-
 }
-
+.socials-list {
+    gap: 10px;
+}
 .footer-social-link {
     display: flex;
     align-items: center;
@@ -429,15 +428,13 @@ a {
     
 }
 
-.footer-social-link:hover {
+.footer-social-link:hover,
+.footer-social-link:focus {
     background-color: var(--accent-color);
     cursor: pointer;
 }
 
 
-.footer-link:not(:last-child) {
-    margin-right: 10px;
-}
 
 /* Portfolio */
 
